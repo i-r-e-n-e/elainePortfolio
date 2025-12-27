@@ -1,0 +1,27 @@
+.header {
+    background-color: yellow; /*change to transparent*/
+    font-weight: bold;
+    font-size: 2em;
+    height: 100px;
+    padding: 10px 24px; /* top-bottom left-right*/
+    /* color: white; */
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #333;
+}
+
+.right a:hover {
+    text-decoration: underline; 
+}
