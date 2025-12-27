@@ -1,0 +1,28 @@
+.hero {
+    height: 100vh;
+    background-image: url("../assets/heroBackground.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.links {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
